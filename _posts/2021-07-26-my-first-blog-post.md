@@ -6,4 +6,10 @@ date: 2021-07-25
 
 This is my first blog post on my new github page.
 
-<button onclick="myFunction()">Click me</button> 
+<p onclick="myFunction(this, 'red')">Click me to change my text color.</p>
+
+<script>
+function myFunction(elmnt,clr) {
+  elmnt.style.color = clr;
+}
+</script>
