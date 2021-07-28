@@ -3,7 +3,7 @@ title: "pathlib commands"
 date: 2021-07-28
 ---
 
->>> from pathlib import Path
+">>> from pathlib import Path"
 >>> Path('spam', 'bacon', 'eggs')
 
 # The path will appear the same on both Windows and Linux
