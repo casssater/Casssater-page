@@ -4,9 +4,8 @@ date: 2021-07-28
 ---
 
 {% highlight python %}
-'>>> from pathlib import Path'
+>>> from pathlib import Path
 >>> Path('spam', 'bacon', 'eggs')
-{% endhighlight python %}
 
 # The path will appear the same on both Windows and Linux
 WindowsPath('spam/bacon/eggs')
@@ -42,3 +41,4 @@ WindowsPath('spam/bacon/eggs')
 WindowsPath('C:/Users/Al/spam')
 >>> str(homeFolder / subFolder)
 'C:\\Users\\Al\\spam'
+{% endhighlight python %}
