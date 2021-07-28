@@ -25,8 +25,9 @@ WindowsPath('spam/bacon/eggs')
 WindowsPath('spam/bacon/eggs')
 >>> Path('spam') / Path('bacon', 'eggs')
 WindowsPath('spam/bacon/eggs')
-
-# A script that uses .join operator with a \ is not save, because its backslashes would only work on Windows.
+{% endhighlight python %}
+A script that uses .join operator with a \ is not save, because its backslashes would only work on Windows.
+{% highlight python %}
 >>> homeFolder = r'C:\Users\Al'
 >>> subFolder = 'spam'
 >>> homeFolder + '\\' + subFolder
