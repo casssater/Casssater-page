@@ -3,8 +3,10 @@ title: "pathlib commands"
 date: 2021-07-28
 ---
 
-">>> from pathlib import Path"
+{% highlight python %}
+'>>> from pathlib import Path'
 >>> Path('spam', 'bacon', 'eggs')
+{% endhighlight python %}
 
 # The path will appear the same on both Windows and Linux
 WindowsPath('spam/bacon/eggs')
