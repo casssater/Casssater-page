@@ -26,7 +26,7 @@ WindowsPath('spam/bacon/eggs')
 >>> Path('spam') / Path('bacon', 'eggs')
 WindowsPath('spam/bacon/eggs')
 {% endhighlight python %}
-A script that uses .join operator with a \ is not save, because its backslashes would only work on Windows.
+A script that uses the .join operator with a \ is not safe, because it's backslashes would only work on Windows.
 {% highlight python %}
 >>> homeFolder = r'C:\Users\Al'
 >>> subFolder = 'spam'
@@ -34,8 +34,9 @@ A script that uses .join operator with a \ is not save, because its backslashes 
 'C:\\Users\\Al\\spam'
 >>> '\\'.join([homeFolder, subFolder])
 'C:\\Users\\Al\\spam'
-
-# Vs.
+{% endhighlight python %}
+VS.
+{% highlight python %}
 >>> homeFolder = Path('C:/Users/Al')
 >>> subFolder = Path('spam')
 >>> homeFolder / subFolder
