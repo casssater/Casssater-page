@@ -1,3 +1,8 @@
+---
+title: "Multi-Clipboard Utility"
+date: 2021-08-04
+---
+
 The code will take whatever is currently loaded on the clipboard and save it to the file 'mcb' using a specified keyword. 
 If the script is ran against an existing keyword, the associated phrase will be copied to the clipboard.
 
