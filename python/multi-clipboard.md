@@ -9,12 +9,12 @@ If the script is ran against an existing keyword, the associated phrase will be 
 {% highlight python %}
 
 #!python3
- # mcb.pyw - Saves and loads pieces of text to the clipboard.
- # Usage: python3 mcb.pyw save <keyword> - Saves clipboard to keyword.
- #        python3 mcb.pyw <keyword> - Loads keyword to clipboard
- #        python3 mcb.pyw list - Loads all keywords to clipboard.
- #        python3 mcb.pyw delete <keyword> - Delete keyword from save file
- #        python3 mcb.pyw delete-all - Delete all keywords
+# mcb.pyw - Saves and loads pieces of text to the clipboard.
+# Usage: python3 mcb.pyw save <keyword> - Saves clipboard to keyword.
+#        python3 mcb.pyw <keyword> - Loads keyword to clipboard
+#        python3 mcb.pyw list - Loads all keywords to clipboard.
+#        python3 mcb.pyw delete <keyword> - Delete keyword from save file
+#        python3 mcb.pyw delete-all - Delete all keywords
  
  import shelve, pyperclip, sys
  
