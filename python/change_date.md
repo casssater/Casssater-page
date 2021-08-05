@@ -1,3 +1,8 @@
+---
+title: "Change filename date from American to European"
+date: 2021-08-05
+---
+
 renameDates.py - Renames filenames with American MM-DD-YYYY date format to European DD-MM-YYYY.
 {% highlight python %}
 #!python3
