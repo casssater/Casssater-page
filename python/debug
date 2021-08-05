@@ -54,3 +54,16 @@ Write traceback information to a text file and keep the program running
 111
 The traceback info was written to errorInfo.txt.
 {% endhighlight python %}
+<h2>Assertions</h2>
+“I assert that the condition holds true, and if not, there is a bug somewhere, so immediately stop the program.”
+{% highlight python %}
+>>> ages = [26, 57, 92, 54, 22, 15, 17, 80, 47, 73]
+>>> ages.sort()
+>>> ages
+[15, 17, 22, 26, 47, 54, 57, 73, 80, 92]
+>>> assert
+ages[0] <= ages[-1] # Assert that the first age is <= the last age.
+{% endhighlight python %}
+The assert statement here asserts that the first item in ages should be less than or equal to the last one. This is a sanity check; if the code in sort() is bug-free and did its job, then the assertion would be true.
+<br><br>
+Because the ages[0] <= ages[-1] expression evaluates to True, the assert statement does nothing.
