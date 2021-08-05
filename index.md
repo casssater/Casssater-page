@@ -6,5 +6,6 @@ title: "Casssater Documentation"
 
 
 [PathLib Commands](/python/pathlib.md)<br>
-[Multi-Clipboard util](/python/multi-clipboard.md)
+[Multi-Clipboard util](/python/multi-clipboard.md)<br>
+[File Manipulation](/python/organize_files.md)
 
