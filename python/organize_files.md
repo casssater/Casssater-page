@@ -21,10 +21,8 @@ shutil module lets you copy, move, rename, and delete files
 # The file bacon.txt is moved and renamed to new_bacon.txt
 >>> shutil.move('C:\\bacon.txt', 'C:\\eggs\\new_bacon.txt')
 {% endhighlight python %}
-
 os.unlink with delete a file, os.rmdir will delete a folder - THESE CALLS PERMANENTLY DELETE FILES AND DIRECTORIES.
 when using either of these options, comment out the unlink/rmdir calls and use the print command to see what will be deleted
-
 {% highlight python %}
 >>> import os
 >>> from pathlib import Path
