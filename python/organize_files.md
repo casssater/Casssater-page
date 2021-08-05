@@ -52,3 +52,4 @@ for folderName, subfolders, filenames in os.walk('C:\\delicious'):
         print('FILE INSIDE ' + folderName + ': '+ filename)
 
     print('')
+{% endhighlight python %}
