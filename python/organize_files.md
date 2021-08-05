@@ -75,3 +75,19 @@ Use the zipfile module to manipulate zip files
 'Compressed file is 3.63x smaller!'
 >>> exampleZip.close()
 {% endhighlight python %}
+Extracting from ZIP Files
+{% highlight python %}
+>>> import zipfile, os
+>>> from pathlib import Path
+>>> p = Path.home()
+>>> exampleZip = zipfile.ZipFile(p / 'example.zip')
+>>> exampleZip.extractall()
+>>> exampleZip.close()
+{% endhighlight python %}
+Create a zip file named new.zip that has the compressed contents of spam.txt
+{% highlight python %}
+>>> import zipfile
+>>> newZip = zipfile.ZipFile('new.zip', 'w')
+>>> newZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED)
+>>> newZip.close()
+{% endhighlight python %} 
