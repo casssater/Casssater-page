@@ -7,5 +7,5 @@ title: "Casssater Documentation"
 [Multi-Clipboard util](/python/multi-clipboard.md)<br>
 [File Manipulation](/python/organize_files.md)<br>
 [Change filename date](/python/change_date.md)<br>
-[Debugging](/python/debug.md)
+[Debugging](/python/debug.md)<br>
 [Web Scraping](/python/web_scraping.md)
