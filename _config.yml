@@ -1,8 +1,8 @@
-title: Cassater
+title: [Casssater]
 author: me
 email: my-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Learning documentation site
+  [Learning documentation site]
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
