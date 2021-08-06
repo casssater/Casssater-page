@@ -37,7 +37,7 @@ for sym, w, h in (('*', 4, 4), ('O', 20, 5), ('x', 1, 3), ('ZZ', 3, 3)):
   except Exception as err:
     print('An exception happened: ' + str(err))
 {% endhighlight python %}
-Here is the script in action: https://autbor.com/boxprint
+[Here is the script in action](https://autbor.com/boxprint)
 <h2>Traceback</h2>
 Write traceback information to a text file and keep the program running
 {% highlight python %}
