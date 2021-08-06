@@ -8,4 +8,4 @@ title: "Casssater Documentation"
 [File Manipulation](/python/organize_files.md)<br>
 [Change filename date](/python/change_date.md)<br>
 [Debugging](/python/debug.md)
-
+[Web Scraping](/python/web_scraping.md)
