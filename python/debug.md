@@ -110,7 +110,6 @@ Output:
 <p>The factorial() function is returning 0 as the factorial of 5, which isn’t right. The for loop should be multiplying the value in total by the numbers from 1 to 5. But the log messages displayed by logging.debug() show that the i variable is starting at 0 instead of 1. Since zero times anything is zero, the rest of the iterations also have the wrong value for total. Logging messages provide a trail of breadcrumbs that can help you figure out when things started to go wrong.</p>
 <br><br>
 Change the for i in range(n + 1): line to for i in range(1, n + 1):, and run the program again. The output will look like this:
-{% endhighlight python %}
 Output:
 {% highlight python %}
 2019-05-23 17:13:40,650 - DEBUG - Start of program
