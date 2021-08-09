@@ -1,6 +1,4 @@
 ---
 ---
 
-@import "";
-@import '{{ site.theme }}';
-@import "native.css";
+@import "", "{{ site.theme }}", "native.css";
