@@ -51,8 +51,10 @@ inventwithpython.com">my website</a>.</p>
 {'id': 'author'}
 {% endhighlight %}
 <b>Pull all elements that are using a 
-{% highlight html %}<p>{% endhighlight %}{: .inlined }
-tag
+<pre>
+    <%--<p>--%>
+</pre>
+tag</b> 
 {% highlight python %}
 >>> pElems = exampleSoup.select('p')
 >>> str(pElems[0])
