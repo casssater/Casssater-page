@@ -24,10 +24,29 @@ inventwithpython.com">my website</a>.</p>
 >>> type(noStarchSoup)
 <class 'bs4.BeautifulSoup'>
 {% endhighlight %}
-Doing the same thing but with the example.html (make sure python is running in the same directory as example.html)
+<b>Doing the same thing but with the example.html (make sure python is running in the same directory as example.html)</b>
 {% highlight python %}
 >>> exampleFile = open('example.html')
 >>> exampleSoup = bs4.BeautifulSoup(exampleFile, 'html.parser')
 >>> type(exampleSoup)
 <class 'bs4.BeautifulSoup'>
+{% endhighlight %}
+<b>Using Beautiful Soup to get the author element from example.html</b>
+{% highlight python %}
+>>> import bs4
+>>> exampleFile = open('example.html')
+>>> exampleSoup = bs4.BeautifulSoup(exampleFile.read(), 'html.parser')
+>>> elems = exampleSoup.select('#author')
+>>> type(elems) # elems is a list of Tag objects.
+<class 'list'>
+>>> len(elems)
+1
+>>> type(elems[0])
+<class 'bs4.element.Tag'>
+>>> str(elems[0]) # The Tag object as a string.
+'<span id="author">Al Sweigart</span>'
+>>> elems[0].getText()
+'Al Sweigart'
+>>> elems[0].attrs
+{'id': 'author'}
 {% endhighlight %}
