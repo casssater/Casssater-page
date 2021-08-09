@@ -50,3 +50,20 @@ inventwithpython.com">my website</a>.</p>
 >>> elems[0].attrs
 {'id': 'author'}
 {% endhighlight %}
+<b>Pull all elements that are using a {% highlight html %}<p>{% endhighlight %} tag</b>
+{% highlight python %}
+>>> pElems = exampleSoup.select('p')
+>>> str(pElems[0])
+'<p>Download my <strong>Python</strong> book from <a href="https://
+inventwithpython.com">my website</a>.</p>'
+>>> pElems[0].getText()
+'Download my Python book from my website.'
+>>> str(pElems[1])
+'<p class="slogan">Learn Python the easy way!</p>'
+>>> pElems[1].getText()
+'Learn Python the easy way!'
+>>> str(pElems[2])
+'<p>By <span id="author">Al Sweigart</span></p>'
+>>> pElems[2].getText()
+'By Al Sweigart'
+{% endhighlight %}
