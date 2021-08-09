@@ -50,11 +50,7 @@ inventwithpython.com">my website</a>.</p>
 >>> elems[0].attrs
 {'id': 'author'}
 {% endhighlight %}
-<b>Pull all elements that are using a 
-<pre>
-    <%--<p>--%>
-</pre>
-tag</b> 
+<b>Pull all elements that are using a p tag</b> 
 {% highlight python %}
 >>> pElems = exampleSoup.select('p')
 >>> str(pElems[0])
