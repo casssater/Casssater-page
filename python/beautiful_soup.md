@@ -4,17 +4,7 @@
 pip install --user beautifulsoup4
 {% endhighlight %}
 <h2>Example webpage:</h2>
-{% highlight html %}
-<!-- This is the example.html example file. -->
 
-<html><head><title>The Website Title</title></head>
-<body>
-<p>Download my <strong>Python</strong> book from <a href="https://
-inventwithpython.com">my website</a>.</p>
-<p class="slogan">Learn Python the easy way!</p>
-<p>By <span id="author">Al Sweigart</span></p>
-</body></html>
-{% endhighlight %}
 <h2>Create a Beautiful Soup object</h2>
 {% highlight python %}
 >>> import requests, bs4
