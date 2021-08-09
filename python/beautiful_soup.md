@@ -67,3 +67,18 @@ inventwithpython.com">my website</a>.</p>'
 >>> pElems[2].getText()
 'By Al Sweigart'
 {% endhighlight %}
+<h2>Getting data from an elements attribute</h2>
+{% highlight python %}
+>>> import bs4
+>>> soup = bs4.BeautifulSoup(open('example.html'), 'html.parser')
+>>> spanElem = soup.select('span')[0]
+>>> str(spanElem)
+'<span id="author">Al Sweigart</span>'
+>>> spanElem.get('id')
+'author'
+>>> spanElem.get('some_nonexistent_addr') == None
+True
+>>> spanElem.attrs
+{'id': 'author'}
+{% endhighlight %}
+<p>Use select() to find any <span> elements and then store the first matched element in spanElem. Passing the attribute name 'id' to get() returns the attribute’s value, 'author'.</p>
