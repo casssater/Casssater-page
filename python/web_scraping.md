@@ -1,4 +1,5 @@
 <h1>Web Scraping</h1>
+[Beautiful Soup](/python/beautiful_soup.md)
 <h2>Modules</h2>
 <p><b>webbrowser</b> Comes with Python and opens a browser to a specific page.</p>
 <p><b>requests</b> Downloads files and web pages from the internet.</p>
