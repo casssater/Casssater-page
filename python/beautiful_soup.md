@@ -81,4 +81,4 @@ True
 >>> spanElem.attrs
 {'id': 'author'}
 {% endhighlight %}
-<p>Use select() to find any <span> elements and then store the first matched element in spanElem. Passing the attribute name 'id' to get() returns the attribute’s value, 'author'.</p>
+<p>Use select() to find any "<span>" elements and then store the first matched element in spanElem. Passing the attribute name 'id' to get() returns the attribute’s value, 'author'.</p>
