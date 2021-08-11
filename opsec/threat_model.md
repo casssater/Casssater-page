@@ -41,4 +41,6 @@
   <li>Aggressively use privacy settings on social media to limit who sees posts that could give up information that someone else could use to convince others that they are you.</li>
   <li>When you can't update, mitigate. In some cases, you may just have to completely disconnect older hardware that you can't replace from the Internet and find other means to connect.</li>
 </ul>
- 
+<h2>Rinse and repeat</h2>
+<p>Keep going back to your threat model and update what needs updated</p>
+<i>Source: https://arstechnica.com/information-technology/2017/07/how-i-learned-to-stop-worrying-mostly-and-love-my-threat-model/</i>
