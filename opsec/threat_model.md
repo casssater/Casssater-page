@@ -26,3 +26,19 @@
   <li>Denial of service: making it impossible for someone to use the application or information, whether it's your personal website or someone trying to boot you off a game network.</li>
   <li>Elevation of privilege: gaining a greater level of access to an application or to data than allowed by altering the restrictions on the user or the application (getting "root," escaping the browser sandbox to install malware, etc.).</li>
 </ul>  
+<h2>How much can I stand to do about it?</h2>
+<strong>Quick Answer:</strong>
+<ul>
+  <li>Back up your stuff to the cloud or a disk drive you detach from your device</li>
+  <li>Use a password manager to automate your use of separate passwords for every website</li>
+  <li>Update your software whenever alerted to do so</li>
+</ul>
+<strong>Opsec best practices:</strong>
+<ul>
+  <li>Use a non-jailbroken smart phone or tablet and put a password on it rather than a PIN if possible.</li>
+  <li>Put a "security freeze" on your credit report with the three major credit reporting agencies to prevent unauthorized credit applications using your personal data. (It costs about $10 to $15 per agency to set these up.)</li>
+  <li>Use specific e-mail accounts for each credit card or banking account—and use "throwaway" e-mail accounts to register on other websites as usernames. Thanks to Web mail, you can have as many e-mail accounts as you want. Having specific accounts for each financial account means that you can safely delete anything coming to other accounts if it appears to be from another bank—such e-mails are probably phishing attacks. This also reduces the threat of someone using an account and password stolen from another site to try to gain access to your more important Web accounts.</li>
+  <li>Aggressively use privacy settings on social media to limit who sees posts that could give up information that someone else could use to convince others that they are you.</li>
+  <li>When you can't update, mitigate. In some cases, you may just have to completely disconnect older hardware that you can't replace from the Internet and find other means to connect.</li>
+</ul>
+ 
