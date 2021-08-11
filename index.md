@@ -10,3 +10,5 @@ title: "Casssater Documentation"
 [Debugging](/python/debug.md)<br>
 [Web Scraping](/python/web_scraping/web_scraping.md)<br>
 
+<h1>Opsec</h1>
+[Threat Modeling](/opsec/threat_model.md)
