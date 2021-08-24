@@ -8,3 +8,4 @@ If a private key is used to encrypt a message, that means the sender is easily i
 <h2>Man-in-the-middle attack</h2>
 When someone intercepts your message to someone else. The attacker can alter the message and pass it along or choose to simply eavesdrop.
 Public key cryptography lets you address man-in-the-middle attacks by providing ways to verify the recipient and sender's identities. This is done through fingerprint verification.
+Source: https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work
