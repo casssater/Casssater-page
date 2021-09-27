@@ -1,0 +1,30 @@
+LAN:
+PAN - Personal Area Network
+  Bluetooth
+  NFC
+SCADA /ICS
+  Specialized Network
+  Industrial control system
+  SCADA is graphical interface
+  
+WAN:
+MAN - Metropolitan Area Network
+CAN - Campus Area Network
+  Multiple buildings in a wider area
+To connect to a network a node requires three components
+  Connection
+  Client
+  Protocol
+  
+When going from DEC to HEX, first go to BIN. Convert each nibble into HEX
+
+Communication Types:
+  Unicast - One-to-one
+    Skype between two ppl
+  Multicast - One-to-many
+    Skype to specific dept.
+  Broadcast - One-to-all
+    Skype everyone
+    
+Modulate / Demodulate
+  Going from Digital to Analog and then from Analog back to Digital
