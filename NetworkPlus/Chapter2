@@ -1,0 +1,60 @@
+Network Standars:
+
+A. OSI Model
+  Each layer communicates with the same layer on the recieving machine
+  1. Application 7
+    a. Application interface to network services
+      - HTTP
+      - POP/IMAP
+      - SMTP
+      - DNS
+      - TELNET
+    b. The applications way to communicate with network
+  2. Presentation 6
+    a. Translates teh application layer data to an intermediate form that provides security, encryption, and compression for data
+  3. Session 5
+    a. Establishes and controls data communnication between applications operating on different computers.
+  4. Transport 4
+    a. dives long communications into smaller packages, handles error correction and acknowledges the receipt of data
+      - Segmentation
+      - Sequencing
+      - Acknowledgements
+      - Checksums
+  5. Network 3
+    a. addresses data messages and handles message routing
+      - IP addresses
+      - Protocol addresses 
+      - Datagram
+  6. Data link 2 
+    a. Packages bit of data from the physical layer into frames and transfers them from one computer to another
+      - Physical Addresses
+      - CRC - Fail safe for packets, uses hashing
+  7. Physical 1
+    a. Transmits bits from one computer to another and regulates the transmission stream over a medium
+B. IEEE standards
+  1. 802.2
+    a. MAC sub-layer addressing
+  2. 802.3
+    a. Ethernet standard
+  3. 802.5
+    a. Token Ring
+  4. 802.11
+    a. Wireless standards
+  5. 802.15
+    a. Wireless personal area networks
+  6. 802.16
+    a. WiMAX - a type of wireless MAN
+C. Ethernet Frame
+  1. Data packet that has been encoded at the Data Link layer for network transmission
+    a. Preamble - Pattern of 0s and 1s that signals the beginning of a frame
+    b. Start of Frame Delimiter - Beginning of data field
+    c. Destination Address - MAC address of destination computer
+      - Always used as 'Next Hop' identifier
+    d. Source Address - MAC address of source
+    e. Frame Type - Frame type ID or the length of the entire frame in bytes
+    f. Data - The actual payload minimum of 46 bytes and max 1500
+D. MAC Address
+  1. Media Access Control
+    a. Unique address permanently embedded by the manufacturer
+    b. Only used on the local network
+    g. Frame Check Sequence - Uses 32bit CRC to perform error checking
