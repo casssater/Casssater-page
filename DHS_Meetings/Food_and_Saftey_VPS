@@ -1,0 +1,28 @@
+VPS Integration
+I.Import LF briefcase
+  1. LaserFiche Server: eclfapp01.ec.gov
+  2. Move briefcase to repo server
+  3. Find place in repo only avaiable to admins
+    A. Courthouse > Information Technology > LF Team
+    B. Import briefcase
+    C. Populate 'VPS API Credentials' metadata with VPS creds.
+    D. Make note of the Entry ID
+II. Create SQL Table via script
+  1. SQL Server: ecsql02.ec.gov
+  2. External tables in CUSTOM_DAT
+  3. Select New Query on CUSTOM_DAT
+  4. Copy contents of sql script into query box
+  5. dbo.VPSPaymentTokens in created
+  6. On each workflow
+    A. Edit 'Fine VPS Settings Doc'
+      a. Change 'Find the Entry' ID to the ID found in Credentials file
+III. Import Workflows into Workflow Designer
+  1. Workflow > Import Workflow
+  2. Edit 'Insert UUID into DB Table' and Database Activities
+    A. Add the lfiche_dat data source
+IV. Import Forms 
+  1. During the import process enter the names of the workflows and validate 
+V. Troubleshooting
+  1. If the payment fails on the VPS site
+    A. Open the workflow and go to the tokens tab
+    B. Find the gettokenfrompayment and look for error message
